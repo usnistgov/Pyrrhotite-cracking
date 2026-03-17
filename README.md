@@ -21,20 +21,20 @@ NIST Internal Report (IR) NIST IR 8591. https://doi.org/10.6028/NIST.IR.8591
 Authors
 -------
 
-  Osamah H.A Dehwah
-    National Institute of Standards and Technology
+  Osamah H.A Dehwah,
+    National Institute of Standards and Technology,
     Materials and Structural Systems Division
     
-  Edward J. Garboczi
-    National Institute of Standards and Technology
+  Edward J. Garboczi,
+    National Institute of Standards and Technology,
     Applied Chemicals and Materials Division
     
-  Nicos S. Martys
-    National Institute of Standards and Technology
+  Nicos S. Martys,
+    National Institute of Standards and Technology,
     Materials and Structural Systems Division
     
-  Stephanie S. Watson
-    National Institute of Standards and Technology
+  Stephanie S. Watson,
+    National Institute of Standards and Technology,
     Materials and Structural Systems Division
 
 
@@ -77,34 +77,30 @@ Data Overview
 
 Files included in this publication:
 
- Crack Formation_main_codes.zip
+ Crack Formation_main_codes
 
-    Main Codes
-    This is the main codes:  To run simulation: thermal2d-critical-stress-
-      cracking.f To continue/restart simulation: thermal2d-stress-
-      cracking_restart.f To obtain elastic properties: thermal2d-moduli.f
+    Crack formation main codes: This is the main codes:  
+    To run simulation: thermal2d-critical-stress-cracking.f 
+    To continue/restart simulation: thermal2d-stress-cracking_restart.f 
+    To obtain elastic properties: thermal2d-moduli.f
     Format: Fortran
 
+ Simulation Results Examples: This folder contains the results of the codes. Three zip folders:
+
+ Simulation_results_10&100cracks.zip
+
+    Simulation Results Example: This file contains simulation results for 10 and 100 cracks per iteration.
+      Images can be combined to create a GIF image.
+      
  10_cracks_restart.zip
 
-    Restart results example
-    This file contains results for the restart simulation for 10 cracks per
-      iteration.
+    Restart results example: This file contains results for the restart simulation for 10 cracks per iteration.
       
-  Simulation_results_10&100cracks.zip
-
-    Results_Example
-    This file contains simulation results for 10 and 100 cracks per iteration.
-      Images can be combined to create a GIF image.
-
   10_cracks_Thermal.zip
 
-    Elastic Properties
-    This file shows some results of the elastic properties obtained using
-      "thermal2d-moduli.f". Also, it contains script.py and output_Thermal.py,
-      which are used to run the thermal2d-moduli.f and to perform analysis
-      (post-processing) of the results.
-    Format: Fortran
+    Elastic Properties: This file shows some results of the elastic properties obtained using "thermal2d-moduli.f". Also, it contains script.py and output_Thermal.py,
+      which are used to run the thermal2d-moduli.f and to perform analysis (post-processing) of the results.
+   
 
 * Detailed file descriptions can be found in the provided reference, NIST Internal Report:
 Quasistatic Crack Formation in Multiphase Materials Driven by Internal Phases Expansion Mechanisms: 
