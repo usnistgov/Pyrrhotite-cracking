@@ -73,13 +73,7 @@ Data Overview
 
 Files included in this publication:
 
-  10_cracks_restart.zip
-
-    Restart results example
-    This file contains results for the restart simulation for 10 cracks per
-      iteration.
-
-  Crack Formation_main_codes.zip
+ Crack Formation_main_codes.zip
 
     Main Codes
     This is the main codes:  To run simulation: thermal2d-critical-stress-
@@ -87,6 +81,12 @@ Files included in this publication:
       cracking_restart.f To obtain elastic properties: thermal2d-moduli.f
     Format: Fortran
 
+ 10_cracks_restart.zip
+
+    Restart results example
+    This file contains results for the restart simulation for 10 cracks per
+      iteration.
+      
   Simulation_results_10&100cracks.zip
 
     Results_Example
