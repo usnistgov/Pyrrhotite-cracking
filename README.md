@@ -24,15 +24,19 @@ Authors
   Osamah H.A Dehwah
     National Institute of Standards and Technology
     Materials and Structural Systems Division
+    
   Edward J. Garboczi
     National Institute of Standards and Technology
     Applied Chemicals and Materials Division
+    
   Nicos S. Martys
     National Institute of Standards and Technology
     Materials and Structural Systems Division
+    
   Stephanie S. Watson
     National Institute of Standards and Technology
     Materials and Structural Systems Division
+
 
 Contact:
   Osamah Dehwah
