@@ -89,22 +89,47 @@ Files included in this publication:
 
  Simulation_results_10&100cracks.zip
 
-    Simulation Results Example: This file contains simulation results for 10 and 100 cracks per iteration.
+    Simulation Results Example: This folder contains simulation results for 10 and 100 cracks per iteration.
       Images can be combined to create a GIF image.
       
  10_cracks_restart.zip
 
-    Restart results example: This file contains results for the restart simulation for 10 cracks per iteration.
+    Restart results example: This folder contains results for the restart simulation for 10 cracks per iteration. '##.gif' files: Visual representations of crack patterns. 'fort.10##' files: Data files containing the microstructure associated with each GIF'. ##.GIF'. 'micro.in': The primary input file. 'phasemod_values': Output file recording the modulus for each phase type. Further technical details regarding these formats are available in Sections 4.2 (Input Data Files) and 4.3 (FEM Program manual: B.	To restart the code) of the Internal Report.
       
   10_cracks_Thermal.zip
 
-    Elastic Properties: This file shows some results of the elastic properties obtained using "thermal2d-moduli.f". Also, it contains script.py and output_Thermal.py,
-      which are used to run the thermal2d-moduli.f and to perform analysis (post-processing) of the results.
+    Elastic Properties: This folder contains results for elastic properties obtained using thermal2d-moduli.f. While this example uses five distinct microstructure inputs (fort files), the process is customizable to any number of inputs. The included script.py and output_Thermal.py automate the execution of thermal2d-moduli.f and perform post-processing. 'script.py': Organizes fort.10## files into individual directories and executes the Fortran code. output_Thermal.py: Performs post-processing and generates two identical output files (output_csv and output_txt) for user convenience. Results are reported in GPa, though the output units will consistently match the units used for the input phases in the main code. For further details, refer to the NIST Internal Report, Section 4.3 (FEM Program Manual: C. Physical/Mechanical Properties).
    
 
 * Detailed file descriptions can be found in the provided reference, NIST Internal Report:
-Quasistatic Crack Formation in Multiphase Materials Driven by Internal Phases Expansion Mechanisms: 
-Application to Cement-Based-Materials.
+Quasistatic Crack Formation in Multiphase Materials Driven by Internal Phases Expansion Mechanisms: Application to Cement-Based-Materials.
+
+---------------
+Sources of Variability 
+---------------
+-A very small tolerance on the norm of the residual is specified to ensure that the final solution is effectively independent of the tolerance itself. Since the appropriate tolerance value is sensitive to the system size, careful selection is required. In this code, a typical tolerance on the order of nx × ny × 10⁻¹² =5.47×10^(-7)  has been used, where nx and ny denote the number of elements in the x and y directions, respectively.
+
+-The code represents the displacement field using a piecewise linear approximation, which would make the normal strain and stress continues at interfaces, but they are not forced to be. 
+
+---------------
+Copyright Notice
+---------------
+This software was developed at the National Institute of Standards
+and Technology (NIST) by employees of the Federal Government in the
+course of their official duties. Pursuant to title 17 Section 105
+of the United States Code this software is not subject to copyright
+protection and is in the public domain.
+
+This is an experimental system.  NIST assumes no responsibility
+whatsoever for its use by other parties, and makes no guarantees,
+expressed or implied, about its quality, reliability, or any other
+characteristic. We would appreciate acknowledgment if the software is used.
+
+---------------
+Commercial Product Disclaimer
+---------------
+Certain equipment, instruments, software, or materials are identified in this data/code in order to specify the experimental procedure adequately.  Such identification is not intended to imply recommendation or endorsement of any product or service by NIST, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.
+
 
 ---------------
 Version History
