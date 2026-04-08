@@ -94,7 +94,7 @@ Files included in this publication:
       
  10_cracks_restart.zip
 
-    Restart results example: This folder contains results for the restart simulation for 10 cracks per iteration. '##.gif' files: Visual representations of crack patterns. 'fort.10##' files: Data files containing the microstructure associated with each GIF'. ##.GIF'. 'micro.in': The primary input file. 'phasemod_values': Output file recording the modulus for each phase type. Further technical details regarding these formats are available in Sections 4.2 (Input Data Files) and 4.3 (FEM Program manual: B.	To restart the code) of the Internal Report.
+    Restart results example: This folder contains results for the restart simulation for 10 cracks per iteration. '##.gif' files: Visual representations of crack patterns. 'fort.10##' files: Data files containing the microstructure associated with each gif. 'micro.in': The primary input file. 'phasemod_values': Output file recording the modulus for each phase type. Further technical details regarding these formats are available in Sections 4.2 (Input Data Files) and 4.3 (FEM Program manual: B.	To restart the code) of the Internal Report.
       
   10_cracks_Thermal.zip
 
