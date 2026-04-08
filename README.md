@@ -60,10 +60,6 @@ https://doi.org/10.6028/NIST.IR.8591.
 Data Use Notes
 --------------
 
-This data is publicly available according to the NIST statements of
-copyright, fair use and licensing; see
-https://www.nist.gov/director/copyright-fair-use-and-licensing-statements-srd-data-and-software
-
 You may cite the use of this data as follows:
 Dehwah, Osamah H.A, Garboczi, Edward J., Martys, Nicos S., Watson, Stephanie S.
 (2025), 2D Finite Element Based Model of Quasistatic Crack Formation Driven by
@@ -111,25 +107,7 @@ Sources of Variability
 
 -The code represents the displacement field using a piecewise linear approximation, which would make the normal strain and stress continues at interfaces, but they are not forced to be. 
 
----------------
-Copyright Notice
----------------
-This software was developed at the National Institute of Standards
-and Technology (NIST) by employees of the Federal Government in the
-course of their official duties. Pursuant to title 17 Section 105
-of the United States Code this software is not subject to copyright
-protection and is in the public domain.
-
-This is an experimental system.  NIST assumes no responsibility
-whatsoever for its use by other parties, and makes no guarantees,
-expressed or implied, about its quality, reliability, or any other
-characteristic. We would appreciate acknowledgment if the software is used.
-
----------------
-Commercial Product Disclaimer
----------------
-Certain equipment, instruments, software, or materials are identified in this data/code in order to specify the experimental procedure adequately.  Such identification is not intended to imply recommendation or endorsement of any product or service by NIST, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.
-
+* More details on sources of variability can be found in the associated NIST Internal Report, Section 3.5.
 
 ---------------
 Version History
@@ -137,4 +115,25 @@ Version History
 
 1.0.0 (this version)
   initial release
+  
+---------------
+Disclaimer
+---------------
+This data/work was created by employees of the National Institute of Standards and Technology (NIST), an agency of the Federal Government. Pursuant to title 17 United States Code Section 105, works of NIST employees are not subject to copyright protection in the United States.  This data/work may be subject to foreign copyright.
+
+The data/work is provided by NIST as a public service and is expressly provided “AS IS.” NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY. NIST does not warrant or make any representations regarding the use of the data or the results thereof, including but not limited to the correctness, accuracy, reliability or usefulness of the data. NIST SHALL NOT BE LIABLE AND YOU HEREBY RELEASE NIST FROM LIABILITY FOR ANY INDIRECT, CONSEQUENTIAL, SPECIAL, OR INCIDENTAL DAMAGES (INCLUDING DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, AND THE LIKE), WHETHER ARISING IN TORT, CONTRACT, OR OTHERWISE, ARISING FROM OR RELATING TO THE DATA (OR THE USE OF OR INABILITY TO USE THIS DATA), EVEN IF NIST HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+To the extent that NIST may hold copyright in countries other than the United States, you are hereby granted the non-exclusive irrevocable and unconditional right to print, publish, prepare derivative works and distribute the NIST data, in any medium, or authorize others to do so on your behalf, on a royalty-free basis throughout the world.
+
+You may improve, modify, and create derivative works of the data or any portion of the data, and you may copy and distribute such modifications or works. Modified works should carry a notice stating that you changed the data and should note the date and nature of any such change. Please explicitly acknowledge the National Institute of Standards and Technology as the source of the data:  Data citation recommendations are provided at https://www.nist.gov/open/license.
+
+Permission to use this data is contingent upon your acceptance of the terms of this agreement and upon your providing appropriate acknowledgments of NIST’s creation of the data/work.
+
+---------------
+Commercial Product Disclaimer
+---------------
+Certain equipment, instruments, software, or materials are identified in this data/code in order to specify the experimental procedure adequately.  Such identification is not intended to imply recommendation or endorsement of any product or service by NIST, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.
+
+
+
 
