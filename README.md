@@ -135,5 +135,8 @@ Commercial Product Disclaimer
 Certain equipment, instruments, software, or materials are identified in this data/code in order to specify the experimental procedure adequately.  Such identification is not intended to imply recommendation or endorsement of any product or service by NIST, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.
 
 
-
+---------------
+References 
+---------------
+O.H.A Dehwah, E.J. Garboczi, N.S. Martys and S.S. Watson, (2025). Quasistatic Crack Formation in Multiphase Materials Driven by Internal Phases Expansion Mechanisms: Application to Cement-Based-Materials. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Internal Report (IR) NIST IR 8591. https://doi.org/10.6028/NIST.IR.8591
 
