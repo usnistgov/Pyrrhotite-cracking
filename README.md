@@ -105,7 +105,7 @@ Sources of Variability
 ---------------
 -A very small tolerance on the norm of the residual is specified to ensure that the final solution is effectively independent of the tolerance itself. Since the appropriate tolerance value is sensitive to the system size, careful selection is required. In this code, a typical tolerance on the order of nx × ny × 10⁻¹² =5.47×10^(-7)  has been used, where nx and ny denote the number of elements in the x and y directions, respectively.
 
-* More details on sources of variability can be found in the associated NIST Internal Report, Section 3.5.
+* More details on sources of variability can be found in the associated NIST Internal Report (https://doi.org/10.6028/NIST.IR.8591), Section 3.5.
 
 ---------------
 Version History
